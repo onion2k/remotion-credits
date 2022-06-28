@@ -1,0 +1,36 @@
+{
+  "name": "remotion-credits",
+  "version": "0.0.1",
+  "description": "A scrolling credits component for Remotion videos",
+  "main": "index.tsx",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onion2k/remotion-credits.git"
+  },
+  "keywords": [
+    "remotion",
+    "credits"
+  ],
+  "author": "Chris Neale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onion2k/remotion-credits/issues"
+  },
+  "homepage": "https://github.com/onion2k/remotion-credits#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "remotion": "^3.0.23"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.6",
+    "@types/web": "^0.0.61",
+    "esbuild": "^0.14.46",
+    "npm-dts": "^1.3.11",
+    "typescript": "^4.7.4"
+  }
+}
