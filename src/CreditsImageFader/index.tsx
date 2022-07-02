@@ -13,7 +13,7 @@ export const CreditsImageFader: React.FC<{ imagePath: string, className: string,
 		{ extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }
 	);
 
-	const imgSrc = staticFile(imagePath);
+	const imgSrc = imagePath.startsWith("https://") ? imagePath : staticFile(imagePath);
 
 	return (
 		<div className={"credits-image-fader"}>
