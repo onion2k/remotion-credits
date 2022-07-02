@@ -23,10 +23,12 @@ declare module 'remotion-credits/CreditsScroller/index' {
   /// <reference types="react" />
   import './credits-scroller.css';
   export const CreditsScroller: React.FC<{
+      className?: string;
       credits: Array<{
           role: string;
           name: string | string[];
           padding?: number;
+          className?: string;
       }>;
   }>;
 

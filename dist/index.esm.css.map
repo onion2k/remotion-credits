@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/CreditsScroller/credits-scroller.css", "../src/CreditsImageFader/credits-image-fader.css", "../src/CreditsFader/credits-fader.css"],
+  "sourcesContent": [".credits-scroller {\n    transform-origin: top center;\n    width: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n.credits-scroller > .credits-line {\n    display: flex;\n    flex-direction: row;\n    line-height: 2.0rem;\n    gap: 1rem;\n}\n\n.credit-role {\n    flex: 1;\n    text-align: right;\n}\n\n.credit-name {\n    flex: 1;\n    text-transform: uppercase;\n}\n.credit-name > span {\n    display: block;\n}", ".credits-image-fader {\n    display: grid;\n    place-items: center;\n    width: 100%;\n}\n\n.credits-image-fader > .image-container {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    align-items: center;\n    justify-content: center;\n    gap: 1rem;\n}\n\n", ".credits-fader {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 100%;\n    width: 100%;\n}\n\n.credits-fader > .uppercase {\n    text-transform: uppercase;\n}"],
+  "mappings": "AAAA,kBACI,4BACA,WAFJ,mBAOA,gCACI,aACA,mBACA,iBACA,SAGJ,aACI,OACA,iBAGJ,aACI,OACA,yBAEJ,kBACI,cCxBJ,qBACI,aACA,mBACA,WAGJ,sCACI,aACA,sBACA,WACA,mBACA,uBACA,SCZJ,eACI,aACA,sBACA,mBACA,uBACA,YACA,WAGJ,0BACI",
+  "names": []
+}
