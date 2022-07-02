@@ -2,11 +2,12 @@
   "name": "remotion-credits",
   "version": "0.0.1",
   "description": "A scrolling credits component for Remotion videos",
-  "main": "index.tsx",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "node build.js",
+    "watch": "node watch.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "url": "https://github.com/onion2k/remotion-credits/issues"
   },
   "homepage": "https://github.com/onion2k/remotion-credits#readme",
+  "dependencies": {},
   "peerDependencies": {
     "react": "^18.2.0",
     "remotion": "^3.0.23"
